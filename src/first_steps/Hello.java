@@ -29,7 +29,8 @@ public class Hello {
          */
         //Challenge attempt:
         System.out.println("The line printed below this statement is for the first course challenge");
-        System.out.println("Hello, Tim Buchalka");
+        System.out.println("Hello, Tim Buchalka");//The "Hello, Tim Buchalka, in the previous statement is known as
+        // a string literal
 
 
         /*
@@ -40,20 +41,51 @@ public class Hello {
          integer
           Variables have to be initialized in java before being used.
           Def: Expression- is a construct that evaluates to a single value
+          Def: Data types are diff types of data that can be used to identify variables like integers, strings and
+           decimals
          */
 
-         int myFirstNumber = 5;
+         int myFirstNumber = 5; // It is common practice to cap the sec and every oth word in java variables
          //Challenge: print out the value of myFirstNumber on the screen
         System.out.println("The line below this statement is used to complete the challenge");
+        //Variables in java have to be initialized before they are used
         System.out.println(myFirstNumber);
         //You can add even more complex expression to the right of the equal sign
         myFirstNumber = 11 + 7;
         System.out.println(myFirstNumber);
          //even more complex
-        myFirstNumber = (11 + 7) + (10 * 8);
+        myFirstNumber = (10 + 5) + (10 * 2);
+        //Expressions are a construct that evaluates to a single value
         System.out.println(myFirstNumber);
+        //Def: String literal- Any sequence of characters surrounded by double quotes
 
-        System.out.println("This is just to test what the next commit does");
+        /*
+        * "Starting Out With Expressions"
+        * Video begins w/ a challenge
+        * first: 12 int mySec
+        * sec : 6 int myThird
+        * */
+
+        int mySecondNumber = 12;
+        int myThirdNumber = 6;
+        int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
+        System.out.println(myTotal);
+
+        //Second myTotal Demo In vid
+        myThirdNumber = myFirstNumber*2;
+        myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
+        System.out.println(myTotal);
+
+        //Third Challenge
+        //myLastOne should be 1000 less than myTotal
+        int myLastOne = 1000  -  myTotal;
+        System.out.println(myLastOne);
+        /*
+        * "Primitive Types"
+        * There are 8 primitive data types in java: boolean,byte, char, short, int, long, float and double
+        * */
+
+
 
 
     }

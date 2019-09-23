@@ -1,0 +1,21 @@
+"Introduction"
+------------------
+Java keywords
+main method: entry point for java programs
+you can download course slides in the last section of  the course
+
+"Hello World Project"
+-------------------------
+Covered keywords in java such as classes
+created a hello world class and define its contents
+covered what comprises a java program
+
+"Defining the "MainMethod" "
+----------------------------
+ *  Def: Method-Is a collection of statements, one or more, that perform an operation.
+ *  java uses the main method as an entry point for all java programs
+ *  Def: void-keyword indicating that the method will return nothing after it is ran
+ *  Def: Code block- is used to dei=fine a block of code in your program
+*  Def: Statement- A complete command to be executed and can include one or more expressions
+
+

@@ -86,6 +86,8 @@ public class Hello {
         * */
         //Created a new package as a substitute for project to do demo in video: Primitive Types.
         System.out.println("This was done 09/28/19");
+        System.out.println("This is an update ");
+
 
 
 

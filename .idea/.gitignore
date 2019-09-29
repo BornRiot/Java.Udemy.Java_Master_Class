@@ -1,8 +1,0 @@
-# Default ignored files
-/workspace.xml
-/$PRODUCT_WORKSPACE_FILE$
-/misc.xml
-/modules.xml
-/vcs.xml
-/src/first_steps/short_notes.xml
-*.iml

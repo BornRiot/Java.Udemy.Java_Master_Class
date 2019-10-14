@@ -9,6 +9,7 @@ public class Primitive_TypeChallenge_27 {
         long getLongNum = 50000L + (10L * (testByte + testShort + testInt));
         System.out.println(getLongNum);
         //This is an example of implicit type casting
+        System.out.println("This is just a line for GitHub Desktop Testing. 10/13/19");
 
 
     }

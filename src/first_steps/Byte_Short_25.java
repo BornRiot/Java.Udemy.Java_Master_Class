@@ -4,10 +4,16 @@
  */
 package first_steps;
 public class Byte_Short_25 {
+    public static byte myMinByteValue = Byte.MIN_VALUE;
+    public static byte myMaxByteValue = Byte.MAX_VALUE;
+
+    Byte_Short_25(){
+        this.myMaxByteValue = Byte.MAX_VALUE;
+        this.myMinByteValue = Byte.MIN_VALUE;
+    }
     public static void main(String args[]){
         int myMaxIntTest = 2_147_483_647;
-        byte myMinByteValue = Byte.MIN_VALUE;
-        byte myMaxByteValue = Byte.MAX_VALUE;
+
 
         System.out.println("Byte Minimum Value = " + myMinByteValue);
         System.out.println("Byte Maximum Value = " + myMaxByteValue);

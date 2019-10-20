@@ -45,7 +45,7 @@ public class Byte_Short_25 {
         System.out.println("Long Maximum Value = " + myMaxLongValue);
         long bigLongLiteralValue = 2_147_483_647_234L;  //By not putting the L at the end of the number, it results in a
         // syntax error for the incorrect data type
-        //Java has the ability to autodetect number ranges that are too large for a data tye
+        //Java has the ability to autodetect number ranges that are too large for a data type
 
 
         

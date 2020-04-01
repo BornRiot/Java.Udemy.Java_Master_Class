@@ -14,6 +14,7 @@ public class char_and_booleanPrimTypes_30 {
         //and scripts by which each letter, digit, or symbol is assigned a unique numeric value
         //that applies across different platforms
         //you can use  unicode in java to display char data types in java:
+        //see slides fir mire info on unicode
         char myUnicodeChar = '\u0044';
         System.out.println(myUnicodeChar);
         System.out.println(myChar);

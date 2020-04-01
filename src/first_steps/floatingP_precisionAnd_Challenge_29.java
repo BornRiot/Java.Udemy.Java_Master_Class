@@ -50,7 +50,7 @@ public class floatingP_precisionAnd_Challenge_29 {
          theKilos = thePounds * .45359237;
         System.out.println("Converted kilograms = " + theKilos);
 
-        //Printing iut double numbers using underscores
+        //Printing out double numbers using underscores
         double Pi = 3.1415927d;
         double anotherNumber = 3_000_000.4_567_890d;
         System.out.println(Pi);

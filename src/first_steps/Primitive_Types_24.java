@@ -1,14 +1,6 @@
 package first_steps;
 
 public class Primitive_Types_24 {
-    // Modified from the original variables so they could be used in another class
-    public static int myMinIntValue = Integer.MIN_VALUE;
-    public static int myMaxIntValue = Integer.MAX_VALUE;
-
-    Primitive_Types_24(){ //This demonstrates the use of a constructor. Topic not covered in lecture
-        this.myMaxIntValue =Integer.MAX_VALUE;
-        this.myMinIntValue = Integer.MIN_VALUE;
-    }
     public static void main (String[] args){
 
         //In Java primitive types are the most basic data types. Int is one of the eight primitive types.
@@ -18,8 +10,8 @@ public class Primitive_Types_24 {
         //main project folder
 
         int myValue = 10000;
-        // myMinIntValue =  Integer.MIN_VALUE; [This was the original variable created in the video]
-        // myMaxIntValue =  Integer.MAX_VALUE; [This was the original variable created in the video]
+        int myMinIntValue =  Integer.MIN_VALUE;
+        int myMaxIntValue =  Integer.MAX_VALUE;
         System.out.println("Integer Minimum Value = " + myMinIntValue);
         System.out.println("Integer Maximum Value = " + myMaxIntValue);
         //Integer is known as a wrapper class. Def: Wrapper Class - Java uses the concept of wrapper class for all eight
@@ -31,7 +23,7 @@ public class Primitive_Types_24 {
 
         System.out.println("Busted Min Value = " + (myMinIntValue - 1)); //This is known as an under-flow
 
-        int myMaxIntTest = 2_147_483_647; //Can be used to make numbers more readable
+        int myMaxIntTest = 2_147_483_647; //under scores can be used to make numbers more readable
 
     }
 }

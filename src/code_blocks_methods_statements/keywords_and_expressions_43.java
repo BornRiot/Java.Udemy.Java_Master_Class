@@ -6,6 +6,8 @@ package code_blocks_methods_statements;
 //IntelliJ will highlight java keywords in blue for the user
 //Expressions are the building blocks of all java programs
 //Epresiions are built with values, variables and operators and methods calls
+//Java has 50 reserved keyword to use from at its disposal
+//There is a resource file that directs to a website listing all the  keywords
 class keywords_and_expressions_43 {
 
     public static void main(String[] args) {
@@ -16,6 +18,8 @@ class keywords_and_expressions_43 {
 
         if(highScore == 50) {
             System.out.println("This is an expression");
+
+
 
         }
 

@@ -2,6 +2,7 @@ package first_steps;
 
 public class Primitive_Types_24 {
     public static void main (String[] args){
+
         //In Java primitive types are the most basic data types. Int is one of the eight primitive types.
         //The eight primitive types are: boolean, byte, char, short, int, long, float, and double.
         //Consider these types as the building blocks pf data manipulation
@@ -22,7 +23,7 @@ public class Primitive_Types_24 {
 
         System.out.println("Busted Min Value = " + (myMinIntValue - 1)); //This is known as an under-flow
 
-        int myMaxIntTest = 2_147_483_647; //Can be used to make numbers more readable
+        int myMaxIntTest = 2_147_483_647; //under scores can be used to make numbers more readable
 
     }
 }

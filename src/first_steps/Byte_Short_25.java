@@ -4,10 +4,14 @@
  */
 package first_steps;
 public class Byte_Short_25 {
+
+
+
     public static void main(String args[]){
+   byte myMinByteValue = Byte.MIN_VALUE;
+   byte myMaxByteValue = Byte.MAX_VALUE;
         int myMaxIntTest = 2_147_483_647;
-        byte myMinByteValue = Byte.MIN_VALUE;
-        byte myMaxByteValue = Byte.MAX_VALUE;
+
 
         System.out.println("Byte Minimum Value = " + myMinByteValue);
         System.out.println("Byte Maximum Value = " + myMaxByteValue);
@@ -39,7 +43,11 @@ public class Byte_Short_25 {
         System.out.println("Long Maximum Value = " + myMaxLongValue);
         long bigLongLiteralValue = 2_147_483_647_234L;  //By not putting the L at the end of the number, it results in a
         // syntax error for the incorrect data type
-        //Java has the ability to autodetect number ranges that are too large for a data tye
+        System.out.println("Print out of bigLongLiteralVal "+bigLongLiteralValue);
+        //Java has the ability to autodetect number ranges that are too large for a data type
+        //Each primitive  data type in Java has a specific size and width
+        //See lecture slides "More Primitive Types" for info about the size of Byte, Shorts and Longs. section jm-7-2
+
 
         
 

@@ -16,7 +16,7 @@ package first_steps;
 
 public class Variables_22 {
     public static void main(String[] args){
-    int myFirstNumber = 5; // It is common practice to cap the sec and every oth word in java variables
+    int myFirstNumber = 5; // It is common practice to capitalize  the second and every other word in java variables
         //Def: Declaration statement: Is used to define a variable by assigning the data tye, name and optionally
         // setting a value when creating a variable.
 

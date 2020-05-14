@@ -17,6 +17,8 @@ public class Def_Main_Method_20 {
          an operation.The Main Method is known as the entry  point for Java programs. Def: void-keyword indicating
          that the method will return nothing after it is ran.
          Def: Static- keyword used in Java to find the main method.
+         //The String args in the main method are parameters that can be used to pass arguments to the specified data
+          type defined in the parameter
         You can create your own methods in java and other programming languages
         The parenthesis in the main method are used to pass arguments to that method that can be used
         for other operations.

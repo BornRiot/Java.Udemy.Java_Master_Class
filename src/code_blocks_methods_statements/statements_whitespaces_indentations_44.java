@@ -9,9 +9,7 @@ public class statements_whitespaces_indentations_44 {
 
         int myVariable = 50;
 
-        if (myVariable == 50) {
-            System.out.println("Printed");
-        }
+        System.out.println("Printed");
 
 
         myVariable++; //Statement

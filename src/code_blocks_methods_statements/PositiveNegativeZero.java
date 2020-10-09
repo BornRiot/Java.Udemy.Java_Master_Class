@@ -1,22 +1,18 @@
 package code_blocks_methods_statements;
 public class PositiveNegativeZero{
 	public static void main(String[] args) {
-		checkNumber(-0);
+		checkNumber(5);
 
-		
 	}
 
-	public static void checkNumber (int number){
-		if(number > 0){
-			System.out.println("positive");
-
+	public static void checkNumber(int num){
+		if (num > 0){
+			System.out.println("Positive");
 		}
-		else if(number < 0){
-			System.out.println("negative");
-
+		else if (num < 0 ){
+			System.out.println("Negative");
 		}
 		else
-			System.out.println("zero"); 
-
+			System.out.println("zero");
 	}
 }

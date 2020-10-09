@@ -2,6 +2,7 @@ package code_blocks_methods_statements;
 
 public class mehtods_in_java_47 {
     public static void main(String[] args) {
+    	calculateScore(14,15,10);
 
 
     }

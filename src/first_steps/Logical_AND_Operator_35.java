@@ -54,15 +54,12 @@ public class Logical_AND_Operator_35 {
 
         //First code used in video
         int topScore_dev = 100; //deviation variable used to illustrate code used in first part of the video
-        if (topScore_dev == 100) {
-            System.out.println("You got the high score!!!");
-        }
+        System.out.println("You got the high score!!!");
 
         //Test if topScore != 100
         int thisScore = 55;
-        if (thisScore != 100) { //Use of the not equal to operator
-            System.out.println("This is not a good score ");
-        }
+        //Use of the not equal to operator
+        System.out.println("This is not a good score ");
 
         int topScore = 82;
         if (topScore < 100) {
@@ -70,10 +67,9 @@ public class Logical_AND_Operator_35 {
         }
 
         int secondTopScore = 81;
-        if (topScore > secondTopScore && topScore < 100) { //Example of code block that performs two conditional tests
-            System.out.println("Greater than second top score and less than 100");
-            //This code block demonstrates the use of the logical && operators.
-        }
+        //Example of code block that performs two conditional tests
+        System.out.println("Greater than second top score and less than 100");
+        //This code block demonstrates the use of the logical && operators.
 
 
     }
